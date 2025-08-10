@@ -1,0 +1,15 @@
+.custom-control-input:checked ~ .custom-control-label {
+    background-color: #4A90E2 !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+
+.custom-control-label {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-control-label:hover {
+    background-color: #357ABD !important;
+    color: white !important;
+}
